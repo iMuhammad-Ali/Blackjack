@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.page-one {
+  background: url("src/bj-background.jpg") no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.text {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  float: right;
+  color: white;
+  width: 40%;
+  padding-top: 30px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 80px;
+  width: 80%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid purple;
+}
+
+.rules {
+  text-align: center;
+  padding: 30px;
+}
+
+h3 {
+  font-size: 40px;
+  float: left;
+}
+
+.rules p {
+  font-size: 22px;
+  padding-top: 25px;
+}
+
+.para {
+  margin-top: 40px;
+}
+
+.play-btn {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: darkmagenta;
+  border: none;
+  color: white;
+  font-size: 25px;
+  width: 350px;
+  height: 60px;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: all 0.3s;
+  box-shadow: 7px 5px 10px #28212b;
+}
+
+.play-btn:hover {
+  border: 2px solid #cea4e0;
+  font-size: 30px;
+  width: 370px;
+  height: 70px;
+  margin-top: 45px;
+  box-shadow: 10px 7px 11px #322836;
+}
+
+.play-btn:active {
+  border: none;
+}
+
+.timer {
+  font-size: 25px;
+  margin-top: 25px;
+  color: yellow;
+}

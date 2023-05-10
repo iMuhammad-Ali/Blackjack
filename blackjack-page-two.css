@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+  color: white;
+  font-size: 22px;
+  font-family: "Castoro";
+}
+
+.page-two {
+  height: 100%;
+  background: url("src/table.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  height: 80%;
+}
+
+.player,
+.computer {
+  float: left;
+  width: 40%;
+  height: 80%;
+  border: 2px solid white;
+  margin: 30px 4.5%;
+}
+
+.player {
+  color: blue;
+}
+
+.computer {
+  color: red;
+}
+
+.player h1 {
+  padding: 10px;
+  border-bottom: 2px solid blue;
+}
+
+.computer h1 {
+  padding: 10px;
+  border-bottom: 2px solid red;
+}
+
+.play-btns button {
+  color: white;
+  border: none;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  margin: 15px 3%;
+  box-shadow: 5px 10px 15px black;
+}
+
+.play-btns button:hover {
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.play-btns button:active {
+  font-size: 23px;
+}
+
+.pick-btn {
+  background-color: blue;
+}
+
+.stand-btn {
+  color: black !important;
+  background-color: #fff821;
+}
+
+.stand-btn:hover {
+  border: 3px solid black !important;
+}
+
+.deal-btn {
+  background-color: red;
+}
+
+.score table {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.score table th,
+.score table td {
+  width: 100px;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.pc-score {
+  width: 100%;
+  height: 50px;
+}
+
+.pc-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 70px;
+  padding: 10px;
+}
+
+.result {
+  width: 400px;
+  font-size: 60px;
+  font-weight: bold;
+  position: fixed;
+  margin: 300px 38%;
+}

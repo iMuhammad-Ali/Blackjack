@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blackjack</title>
+    <link rel="stylesheet" type="text/css" href="blackjack-page-two.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="page-two">
+        <div class="container">
+            <div id="result" class="result"></div>
+            <div class="player">
+                <h1>Player</h1>
+                <div id="player-score" ></div>
+                <div id="player-cards" class="pc-cards"></div>
+            </div>
+            <div class="computer">
+                <h1>Computer</h1>
+                <div id="computer-score" class="pc-score"></div>
+                <div id="computer-cards" class="pc-cards"></div>
+            </div>
+            <div class="play-btns">
+                <button class="pick-btn" id="pick-btn">Pick</button>
+                <button class="stand-btn" id="stand-btn">Stand</button>
+                <button class="deal-btn" id="deal-btn">Deal</button>
+            </div>
+            <div class="score">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <td id="wins">0</td>
+                        <td id="losses">0</td>
+                        <td id="draws">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script type="text/javascript" src="blackjack-page-two.js"></script>
+
+</body>
+
+</html>
